@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+<title>Cadastrar Alunos</title>
+<style type="text/css">
+* {font-family:"Trebuchet MS"; font-size:14px;}
+h1 {font-family:"Trebuchet MS"; font-size:24px; color:#006; font-weight:bold; text-transform:uppercase; text-align:center;}
+h2 {font-family:"Trebuchet MS"; font-size:18px; color:#006; font-weight:bold; text-transform:uppercase;}
+#logo {width:100%; text-align: center;}
+fieldset {border-color:#009900;}
+.error {font: normal 10px arial; padding: 3px; margin: 3px; background-color: #ffc; border: 1px solid #c00;
+}
+
+</style>
+
+<script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/jquery.validate.js"></script>
+<script type="text/javascript" src="js/messages_ptbr.js"></script>
+<script>
+$(document).ready(function(){
+    $("#registerForm").validate();
+  });
+</script>
+
+</head>
+
+<body>
+
+<h1>Formulário de Cadastro</h1>
+<div id="logo"><img src="img/logo.png" alt="Logo FICAP"></div>
+<h2>FICAP - 2012</h2>
+
+<fieldset>
+
+<form name="registerForm" id="registerForm" class="form" method="post" action="inscricao.php">
+
+Matr&iacute;cula: <input class="required" type="text" name="mat" size="15" maxlength="15"><br><br>
+
+Nome: <input class="required" type="text" name="nome" size="100"><br><br>
+
+Email: <input class="required email" type="text" name="email" size="100"><br><br>
+
+Turma:
+<select name="turma">
+<option>
+<option value="1º Ano">1º Ano</option>
+<option value="2º Ano">2º Ano</option>
+<option value="3º Ano">3º Ano</option>
+</select><br><br>
+
+Unidade:<br>
+<select name="unidade" size="5" >
+<option value="Duque de Caxias">Duque de Caxias</option>
+<option value="Lapa">Lapa</option>
+<option value="Santa Cruz da Serra">Santa Cruz da Serra</option>
+<option value="São João de Meriti">São João de Meriti</option>
+</select>
+<br><br>
+
+<input type="submit" value="Enviar dados">
+
+</form>
+</fieldset>
+</body>
+</html>

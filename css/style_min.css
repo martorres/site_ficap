@@ -1,0 +1,60 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}@font-face{font-family:'Tangerine';font-style:normal;font-weight:400;src:url('fonts/Tangerine_Regular.eot');src:local('Tangerine'),url('fonts/Tangerine_Regular.woff') format('woff');}
+@font-face{font-family:'Economica';font-style:normal;font-weight:400;src:url('fonts/Economica-Regular.otf');src:url('fonts/Economica-Regular.ttf') format('truetype');}
+#global{background:url(../img/bg_site.jpg);}#wrapper{width:960px;height:auto;margin:0 auto;}
+#header{width:100%;height:120px;}#header nav{position:relative;bottom:97px;}#header nav li{display:inline;padding:0 10px 0 15px;}
+#header nav ul{padding-top:44px;}#header nav a{text-transform:uppercase;font-family:Economica,'sans-serif';color:#fff;font-size:28px;text-decoration:none;}
+#header nav a:hover{text-shadow:0 0 5px #fff;}h1{text-indent:-9000px;}#logo{position:relative;left:420px;}
+#logo a{width:180px;height:80px;display:block;background-image:url(../img/logo.png);}
+#espaco{margin-left:180px;}.space{padding-left:15px;}#home{width:960px;height:600px;}
+#texto{width:455px;height:430px;border:1px solid #fff;border-radius:15px;background-color:#fff;-webkit-box-shadow:0 0 30px rgba(255,255,255,1);box-shadow:0 0 30px rgba(255,255,255,1);float:left;}
+#texto p{width:420px;margin:30px 0 0 18px;font-family:Economica,'sans-serif';font-size:23px;font-weight:bold;text-indent:30px;text-align:justify;line-height:30px;}
+#frases{float:left;width:450px;height:150px;margin:0 0 0 50px;}#frases p{width:440px;font-size:46px;text-align:justify;font-family:'Tangerine','sans-serif';font-weight:bold;color:#ababab;text-shadow:4px -1px 3px #000;}
+#jobs{padding-left:67%;text-align:right;line-height:0;}.especial{color:#611f22;font-size:100px;line-height:37px;}
+#frases img{margin-top:20px;}#patrocinadores{clear:both;width:525px;height:150px;padding-top:40px;float:left;}
+#apoio{width:400px;height:150px;padding-top:40px;float:left;}#patrocinadores h2,#apoio h2{font-family:Economica,'sans-serif';font-size:26px;color:#fff;text-transform:uppercase;}
+#patrocinadores ul,#apoio ul{width:520px;margin:0 auto;}.vazio{float:left;margin:10px 10px 10px 0;border:2px dashed #999;padding:30px;text-align:center;}
+#patrocinadores a,#apoio a{font-size:13px;color:#fff;text-decoration:none;}#apoio_moz a,#pat_parvaim a,#pat_bic a,#pat_dinamize a,#pat_hostnet a,#apoio_tudowp a,#apoio_arteccom a{width:120px;height:80px;display:block;}
+#apoio_revistaW a{width:65px;height:80px;display:block;}#pat_parvaim{width:120px;height:80px;background-image:url(../img/parvaim.jpg);background-repeat:no-repeat;margin:10px 10px 10px 0;float:left;}
+#pat_bic{width:120px;height:80px;background-image:url(../img/bic.jpg);background-repeat:no-repeat;margin:10px 10px 10px 0;float:left;}
+#pat_dinamize{width:120px;height:80px;background-image:url(../img/dinamize.jpg);background-repeat:no-repeat;margin:10px 10px 10px 0;float:left;}
+#pat_hostnet{width:120px;height:80px;background-image:url(../img/hostnet.jpg);background-repeat:no-repeat;margin:10px 10px 10px 0;float:left;}
+#apoio_revistaW{width:65px;height:80px;background-image:url(../img/revistaW.jpg);background-repeat:no-repeat;margin:10px 10px 10px 0;float:left;}
+#apoio_moz{width:120px;height:80px;background-image:url(../img/mozilla.jpg);background-repeat:no-repeat;margin:10px 10px 10px 0;float:left;}
+#apoio_tudowp{width:120px;height:80px;background-image:url(../img/tudoparawordpress.jpg);background-repeat:no-repeat;margin:10px 10px 10px 0;float:left;}
+#apoio_arteccom{width:130px;height:80px;background-image:url(../img/arteccom.jpg);background-repeat:no-repeat;margin:10px 10px 10px 0;float:left;}
+.convidados{height:150px;padding-bottom:10px;}#palestrantes{clear:both;width:960px;height:730px;font-family:Economica,'sans-serif';color:#fff;}
+#palestrantes h2{font-family:Economica,'sans-serif';font-size:26px;color:#fff;text-transform:uppercase;padding-bottom:20px;}
+.convidados h3{width:750px;height:70px;font-size:28px;font-weight:bold;color:#99ea52;padding:10px 20px 10px 0;}
+.convidados p{width:970px;height:100px;font-size:24px;line-height:30px;}.convidados a{text-decoration:none;color:#99ea52;}
+#leobalter img{float:left;width:150px;height:150px;margin-right:20px;margin-bottom:20px;}
+#leobalter h3,#giovanni h3{height:25px;}#giovanni img{clear:both;float:left;width:150px;height:150px;margin-right:20px;}
+#gugaalves{margin-top:20px;}#gugaalves img{clear:both;float:left;width:150px;height:150px;margin-right:20px;}
+#gugaalves h3{width:750px;height:30px;font-size:28px;font-weight:bold;color:#99ea52;padding:10px 0 10px 0;}
+#gustavo img{clear:both;float:left;width:150px;height:150px;margin-right:20px;margin-top:20px;}
+#gustavo h3{width:750px;height:25px;font-size:28px;font-weight:bold;color:#99ea52;padding:20px 0 10px 0;}
+#programacao{clear:both;width:960px;height:615px;}#programacao h2{font-family:Economica,'sans-serif';font-size:26px;color:#fff;text-transform:uppercase;padding-bottom:20px;}
+table{width:100%;background-color:#fff;border-collapse:collapse;border-spacing:0;}
+.table td{font-family:"Trebuchet MS",'sans-serif';font-size:17px;font-weight:bold;height:50px;border-bottom:1px solid #ccc;vertical-align:middle;text-align:left;line-height:25px;}
+#hora{width:60px;color:#A7073E;}#nome{width:200px;color:#A7073E;}#empresa{width:210px;color:#A7073E;}
+#tema{width:310px;color:#A7073E;}#almoco{color:#75A93B;}#brindes{color:#75A93B;}
+.aluno{color:#DA6B34;}#fimEvt{color:#A7073E;}#inscricao{width:960px;height:180px;}
+#inscricao h2{font-family:Economica,'sans-serif';font-size:28px;color:#fff;text-transform:uppercase;padding:20px 0;}
+#inscricao p{height:50px;font-family:Economica,'sans-serif';font-size:20px;color:#fff;}
+#bt_inscricao{padding:10px 20px;font-size:20px;background:#ED145B;color:#FFF;border-radius:3px;font-family:Economica,'sans-serif';text-transform:uppercase;text-decoration:none;}
+#bt_inscricao:hover{opacity:.8;-moz-opacity:.8;filter:alpha(opacity=8);}#localizacao{width:960px;height:540px;}
+#localizacao h2{font-family:Economica,'sans-serif';font-size:26px;color:#fff;text-transform:uppercase;padding:0 0 20px 0;}
+#endereco{width:400px;height:400px;float:left;margin-right:60px;}#localizacao p,#localizacao a{font-family:Economica,'sans-serif';font-size:20px;color:#fff;line-height:30px;}
+#map_canvas{width:500px;height:400px;}#contato{clear:both;height:620px;}#contato h2{font-family:Economica,'sans-serif';font-size:26px;color:#fff;text-transform:uppercase;padding:0 0 20px 0;}
+#contato form{width:960px;}#contato input[type="text"]{float:left;margin:10px 3% 15px 0;padding:15px;height:20px;width:400px;background:#d8d8d8;color:#333;font-family:Economica,sans-serif;font-size:20px;}
+#contato textarea{height:300px;width:865px;background:#d8d8d8;padding:15px;color:#333;font-family:Economica,sans-serif;font-size:20px;margin:10px 3% 15px 0;}
+#contato input[type="submit"]{float:right;margin:0 60px 40px 0;border-radius:5px;background:#ed145b;font-family:Economica,sans-serif;font-size:20px;color:#FFF;text-transform:uppercase;width:100px;height:40px;cursor:pointer;}
+#contato input[type="submit"]:hover{opacity:.8;-moz-opacity:.8;filter:alpha(opacity=8);}
+#footer{clear:both;}#footer p{width:960px;font-family:Economica,'sans-serif';font-size:16px;color:#000;font-weight:bold;line-height:30px;background-color:#ccc;text-indent:30px;text-align:center;border-radius:15px 15px 0 0;}
+#footer a{text-decoration:none;color:#000;}.nfloat{position:fixed;top:0;left:0;z-index:99999;background:#222;width:100%;float:left;display:none;}
+.nfloat ul{width:900px;margin:0 auto;background-color:#000;height:35px;padding:35px 30px;}
+.nfloat ul li{float:left;margin:5px 25px 0 28px;list-style:none;}.nfloat ul li:last-child{margin-right:0;}
+.nfloat ul li a{font-family:Economica,'sans-serif';color:#60cd08;font-size:24px;font-weight:bold;text-decoration:none;text-transform:uppercase;}
+.nfloat ul li a:hover{color:#ed145b;}.sociais{position:relative;bottom:100px;left:350px;}

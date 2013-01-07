@@ -1,0 +1,5 @@
+php_flag authmail.debug ON
+php_value authmail.address contato@ficapunigranrio.com.br
+php_value authmail.smtp_account contato=ficapunigranrio.com.br
+php_value authmail.smtp smtp.ficapunigranrio.com.br
+php_value authmail.password 'Maria132526'				
